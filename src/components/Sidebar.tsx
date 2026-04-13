@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Home, Compass, Bookmark, Search, Share2, MessageCircle } from "lucide-react";
+import { isExternal } from "util/types";
 
 // SVGs stay the same as before to avoid deprecation errors
 const InstagramLogo = () => (
@@ -10,13 +11,27 @@ const LinkedinLogo = () => (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-6 w-6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
 );
 
+const PinterestLogo = () => (
+    <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="h-6 w-6"
+    >
+        <path d="M8 12a4 4 0 1 1 8 0c0 1.987-1.333 3.5-3 3.5s-2-1.5-2-3.5V5" />
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 22c-1.333-3-2-6-2-9" />
+    </svg>
+);
+
 export const Sidebar = () => {
     const navItems = [
-        // { name: "Home", path: "/", icon: Home },
-        // { name: "Explore", path: "/services", icon: Compass },
-        { name: "Instagram", path: "https://instagram.com/joshi_124", icon: InstagramLogo, isExternal: true },
-        { name: "LinkedIn", path: "https://linkedin.com/in/", icon: LinkedinLogo, isExternal: true },
-        // { name: "Contact", path: "/contact", icon: MessageCircle },
+        { name: "Instagram", path: "https://instagram.com/historicalwonders3", icon: InstagramLogo, isExternal: true },
+        { name: "LinkedIn", path: "https://linkedin.com/in/komaljoshi", icon: LinkedinLogo, isExternal: true },
+        { name: "Pinterest", path: "https://in.pinterest.com/", icon: PinterestLogo, isExternal: true }
     ];
 
     return (
