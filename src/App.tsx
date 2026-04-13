@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { Sidebar } from "@/components/SideBar";
+
 import Gallery from "./pages/Gallery";
 
 const queryClient = new QueryClient();
