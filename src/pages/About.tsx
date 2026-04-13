@@ -25,10 +25,17 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
             <p className="text-muted-foreground leading-relaxed text-lg">
-              ItihasartConservation was founded with a singular vision — to protect and revive India's
-              invaluable built heritage. Our team of conservation architects, archaeologists, material
-              scientists, and skilled craftspeople work together to ensure that historical monuments
-              continue to tell their stories for centuries to come.
+              Itihas Art Conservation began with a simple but powerful realization — many artworks and heritage
+              objects around us are quietly deteriorating, often without anyone noticing until the damage
+              becomes irreversible.
+              As an art conservator, I have always felt a deep emotional connection to historical objects. Every
+              painting, sculpture, textile, or manuscript carries stories of people, traditions, and time.
+              This led to the creation of Itihas Art Conservation — not only as a conservation practice, but also as a
+              platform to educate, share knowledge, and spread awareness about heritage preservation.
+              Alongside conservation work, we actively create educational content to make conservation more
+              accessible and understandable to the public.
+              Today, Itihas Art Conservation works with institutions, and private collectors while also creating
+              content that inspires people to value and protect heritage.
             </p>
           </div>
 
