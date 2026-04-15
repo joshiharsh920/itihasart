@@ -12,13 +12,36 @@ const Contact = () => {
   const { toast } = useToast();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. We'll get back to you soon.",
-    });
-    setForm({ name: "", email: "", message: "" });
+
+    emailjs
+      .send(
+        "service_1z1gz6t",
+        "template_vqsk9nm",
+        {
+          name: form.name,
+          email: form.email,
+          message: form.message,
+          title: "New Message"
+        },
+        "xnkDl9cUIlsjIPq6r"
+      )
+      .then(() => {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. We'll get back to you soon.",
+        });
+
+        setForm({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        console.error(error);
+        toast({
+          title: "Error",
+          description: "Failed to send message. Try again later.",
+        });
+      });
   };
 
   return (
