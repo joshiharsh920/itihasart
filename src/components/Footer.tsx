@@ -23,8 +23,8 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-3">Contact</h4>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>info@itihasartconservation.com</li>
-              <li>+91 98765 43210</li>
+              <li>historicalwonders2023@gmail.com</li>
+              <li>+91 70421 57742</li>
               <li>India</li>
             </ul>
           </div>
