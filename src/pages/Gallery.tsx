@@ -49,12 +49,17 @@ const Gallery = () => {
             {/* 🔥 Image Grid Below */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {images.map((img, index) => (
-                    <img
+                    <div
                         key={index}
-                        src={img}
-                        alt="gallery"
-                        className="w-full h-40 object-cover rounded-lg hover:scale-105 transition-transform"
-                    />
+                        className="h-60 bg-black/5 rounded-lg overflow-hidden flex items-center justify-center"
+                    >
+                        <img
+                            src={img}
+                            alt="gallery"
+                            loading="lazy"
+                            className="max-h-full max-w-full object-contain"
+                        />
+                    </div>
                 ))}
             </div>
         </div>
