@@ -43,9 +43,9 @@ export const Sidebar = () => {
                 className="group flex flex-col items-start bg-white/20 border border-white/30 p-3 rounded-3xl shadow-2xl transition-all duration-500 ease-in-out w-16 hover:w-56 overflow-hidden"
             >
                 {/* Top Icon / Toggle Indicator */}
-                <div className="flex items-center justify-center w-10 h-10 mb-6 bg-accent rounded-2xl shrink-0 mx-auto group-hover:mx-0 transition-all">
+                {/* <div className="flex items-center justify-center w-10 h-10 mb-6 bg-accent rounded-2xl shrink-0 mx-auto group-hover:mx-0 transition-all">
                     <Share2 className="h-5 w-5 text-accent-foreground" />
-                </div>
+                </div> */}
 
                 {/* Navigation Links */}
                 <nav className="flex flex-col gap-3 w-full">
@@ -60,7 +60,7 @@ export const Sidebar = () => {
                             <div className="shrink-0">
                                 <item.icon />
                             </div>
-                            <span className="ml-4 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+                            <span className="ml-4 font-bold text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
                                 {item.name}
                             </span>
                         </Link>

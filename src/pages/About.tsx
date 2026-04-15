@@ -24,7 +24,7 @@ const About = () => {
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
-            <p className="text-muted-foreground leading-relaxed text-lg">
+            <p className="text-muted-foreground leading-8 text-lg font-body">
               Itihas Art Conservation began with a simple but powerful realization — many artworks and heritage
               objects around us are quietly deteriorating, often without anyone noticing until the damage
               becomes irreversible.
@@ -40,26 +40,72 @@ const About = () => {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 mt-12">
+
             <Card className="border-accent/20">
               <CardContent className="p-8">
+
                 <Award className="h-8 w-8 text-accent mb-4" />
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Our Mission</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  To apply scientific conservation methods with deep respect for historical authenticity,
-                  ensuring every intervention is minimal, reversible, and well-documented.
-                </p>
+
+                <h3 className="text-xl font-semibold mb-3 text-foreground">
+                  Our Mission
+                </h3>
+
+                <div className="text-muted-foreground leading-relaxed text-base space-y-4">
+                  <p>
+                    Our mission is to protect and promote cultural heritage through conservation, awareness, and education.
+                  </p>
+
+                  <p>We aim to:</p>
+
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Provide professional conservation and restoration services</li>
+                    <li>Encourage preventive care and responsible collection management</li>
+                    <li>Support institutions and collectors in preserving their collections</li>
+                    <li>Create educational content to spread awareness about conservation</li>
+                    <li>Make heritage preservation more accessible to wider audiences</li>
+                  </ul>
+
+                  <p>
+                    We believe conservation is not just about repairing damage — it is about safeguarding memory,
+                    identity, and history.
+                  </p>
+                </div>
+
               </CardContent>
             </Card>
+
             <Card className="border-accent/20">
               <CardContent className="p-8">
+
                 <Users className="h-8 w-8 text-accent mb-4" />
-                <h3 className="text-xl font-semibold mb-3 text-foreground">Our Vision</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  A future where every historic site in India is valued, protected, and accessible —
-                  bridging past wisdom with contemporary stewardship.
-                </p>
+
+                <h3 className="text-xl font-semibold mb-3 text-foreground">
+                  Our Vision
+                </h3>
+
+                <div className="text-muted-foreground leading-relaxed text-base space-y-4">
+                  <p>
+                    Our vision is to build a future where conservation becomes an essential part of how we care for heritage
+                    and where people feel connected to the history around them.
+                  </p>
+
+                  <p>We aspire to:</p>
+
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Become a trusted conservation partner for museums and heritage institutions</li>
+                    <li>Increase awareness about art conservation in India through education and content creation</li>
+                    <li>Encourage long-term preservation practices</li>
+                    <li>Inspire people to value and protect cultural heritage</li>
+                  </ul>
+
+                  <p>
+                    At Itihas Art Conservation, we preserve the past, educate the present, and inspire the future.
+                  </p>
+                </div>
+
               </CardContent>
             </Card>
+
           </div>
         </div>
       </section>

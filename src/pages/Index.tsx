@@ -54,7 +54,7 @@ const Index = () => {
             art, and architecture through expert conservation practices.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90" asChild>
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-primary-foreground/10" asChild>
               <Link to="/services">
                 Our Services <ArrowRight className="ml-2 h-4 w-4" />
               </Link>

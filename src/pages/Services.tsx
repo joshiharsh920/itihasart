@@ -4,7 +4,7 @@ import { Landmark, Paintbrush, BookOpen, ShieldCheck, Hammer, Eye } from "lucide
 const services = [
   {
     icon: Landmark,
-    title: "Structural Conservation",
+    title: "Curative And Preventive Conservation",
     desc: "Assessment and stabilization of historic buildings, forts, palaces, and temples using reversible, compatible materials.",
   },
   {
@@ -14,22 +14,22 @@ const services = [
   },
   {
     icon: BookOpen,
-    title: "Heritage Documentation",
+    title: "Condition Assessment and Documentation",
     desc: "Measured drawings, photogrammetry, 3D scanning, and condition-mapping reports for conservation planning.",
   },
   {
     icon: ShieldCheck,
-    title: "Preventive Conservation",
+    title: "Collection Care",
     desc: "Environmental monitoring, drainage solutions, and long-term maintenance strategies.",
   },
   {
     icon: Hammer,
-    title: "Material Analysis",
+    title: "Workshop And Training",
     desc: "Laboratory testing of historic mortars, pigments, stone, and timber to guide authentic restoration.",
   },
   {
     icon: Eye,
-    title: "Conservation Consulting",
+    title: "Consultation For Collectors and Galleries",
     desc: "Expert advisory for heritage management plans, adaptive reuse, and policy compliance.",
   },
 ];
