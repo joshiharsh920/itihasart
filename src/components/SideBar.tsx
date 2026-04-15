@@ -2,6 +2,16 @@ import { Link } from "react-router-dom";
 import { Home, Compass, Bookmark, Search, Share2, MessageCircle } from "lucide-react";
 import { isExternal } from "util/types";
 
+const YouTubeLogo = () => (
+    <svg viewBox="0 0 24 24" className="h-6 w-6">
+        <path
+            fill="#FF0000"
+            d="M23.498 6.186a2.974 2.974 0 0 0-2.093-2.104C19.555 3.5 12 3.5 12 3.5s-7.555 0-9.405.582A2.974 2.974 0 0 0 .502 6.186 31.24 31.24 0 0 0 0 12a31.24 31.24 0 0 0 .502 5.814 2.974 2.974 0 0 0 2.093 2.104C4.445 20.5 12 20.5 12 20.5s7.555 0 9.405-.582a2.974 2.974 0 0 0 2.093-2.104A31.24 31.24 0 0 0 24 12a31.24 31.24 0 0 0-.502-5.814z"
+        />
+        <path fill="#fff" d="M9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+    </svg>
+);
+
 const InstagramLogo = () => (
     <svg viewBox="0 0 24 24" className="h-6 w-6">
         <defs>
@@ -32,8 +42,9 @@ const PinterestLogo = () => (
 );
 export const Sidebar = () => {
     const navItems = [
+        { name: "YouTube", path: "https://www.youtube.com/@HistoricalWonders2023", icon: YouTubeLogo, isExternal: true },
         { name: "Instagram", path: "https://instagram.com/historicalwonders3", icon: InstagramLogo, isExternal: true },
-        { name: "LinkedIn", path: "https://linkedin.com/in/komaljoshi", icon: LinkedinLogo, isExternal: true },
+        { name: "LinkedIn", path: "https://linkedin.com/in/komaljoshi758", icon: LinkedinLogo, isExternal: true },
         { name: "Pinterest", path: "https://in.pinterest.com/", icon: PinterestLogo, isExternal: true }
     ];
 
