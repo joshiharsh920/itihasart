@@ -45,7 +45,7 @@ export const Sidebar = () => {
         { name: "YouTube", path: "https://www.youtube.com/@HistoricalWonders2023", icon: YouTubeLogo, isExternal: true },
         { name: "Instagram", path: "https://instagram.com/historicalwonders3", icon: InstagramLogo, isExternal: true },
         { name: "LinkedIn", path: "https://linkedin.com/in/komaljoshi758", icon: LinkedinLogo, isExternal: true },
-        { name: "Pinterest", path: "https://in.pinterest.com/", icon: PinterestLogo, isExternal: true }
+        { name: "Pinterest", path: "https://in.pinterest.com/komaljoshi758", icon: PinterestLogo, isExternal: true }
     ];
 
     return (
