@@ -20,8 +20,6 @@ const Gallery = () => {
         "/images/img8.jpg",
         "/images/img9.jpg",
         "/images/img10.jpg",
-        "/images/img11.jpg",
-        "/images/img12.jpg",
     ];
 
 
