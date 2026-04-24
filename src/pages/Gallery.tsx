@@ -50,7 +50,7 @@ const Gallery = () => {
             </Swiper>
             {/* 🔥 Image Grid Below */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {images.map((img, index) => (
+                {images2.map((img, index) => (
                     <div
                         key={index}
                         className="h-60 bg-black/5 rounded-lg overflow-hidden flex items-center justify-center"
@@ -62,6 +62,7 @@ const Gallery = () => {
                             className="max-h-full max-w-full object-contain"
                         />
                     </div>
+
                 ))}
             </div>
         </div>
