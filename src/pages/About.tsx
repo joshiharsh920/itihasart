@@ -3,7 +3,7 @@ import { Users, Award, Clock, MapPin, Landmark } from "lucide-react";
 
 const stats = [
   { icon: Clock, value: "7+", label: "Years of Experience" },
-  { icon: Landmark, value: "50+", label: "Sites Conserved" },
+  { icon: Landmark, value: "25+", label: "Sites Conserved" },
   { icon: Users, value: "6+", label: "Expert Team Members" },
   { icon: MapPin, value: "12+", label: "States Covered" },
 ];
